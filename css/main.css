@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Merriweather, serif;
+  color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #a63f38;
+}
+
+.grain {
+  width: 40px;
+  padding: .5em 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
